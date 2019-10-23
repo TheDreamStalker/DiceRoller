@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">DiceRoller</string>
     <string name="action_settings">Settings</string>
+    <string name="roll_the_dice">Roll the dice</string>
+    <string name="score">Score</string>
+    <string name="submit_guess">Submit</string>
 </resources>
