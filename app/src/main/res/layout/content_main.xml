@@ -26,8 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="on_button_click"
-        android:text="@string/roll_the_dice"
-        android:textSize="30sp"
+        android:text="@string/i_am_feeling_lucky"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -47,7 +47,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734" />
+        app:layout_constraintVertical_bias="0.734"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/user_score"
@@ -73,6 +74,20 @@
         app:layout_constraintStart_toStartOf="@+id/user_score"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:id="@+id/dbreakers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="on_dicebreaker_click"
+        android:text="Play Dicebreakers"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roll_dice"
+        app:layout_constraintVertical_bias="0.403" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
